@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "host",
+    "shared",
+    "plugins/dynamic_counter"
+]
+
+[workspace.dependencies]
+#floem = "0.2"
+floem = {path = "../floem"}
